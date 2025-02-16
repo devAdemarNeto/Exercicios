@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors = ["Ademar Neto"]
   spec.email = ["ademarnetodev@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Validador de documentos brasileiros como CPF, CNPJ, RG e PIS/PASEP."
+  spec.description = "Uma biblioteca Ruby para validação de documentos brasileiros, incluindo CPF, CNPJ, RG e PIS/PASEP, permitindo verificar a autenticidade e formato correto dos números."
+  spec.homepage = "https://github.com/devAdemarNeto/brazilian_docs"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["homepage_uri"] = "https://github.com/devAdemarNeto/brazilian_docs"
+  spec.metadata["source_code_uri"] = "https://github.com/devAdemarNeto/brazilian_docs"
+  spec.metadata["changelog_uri"] = "https://github.com/devAdemarNeto/brazilian_docs/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
