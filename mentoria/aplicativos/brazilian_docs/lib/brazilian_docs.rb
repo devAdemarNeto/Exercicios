@@ -3,6 +3,8 @@
 require_relative "brazilian_docs/version"
 require_relative "brazilian_docs/cpf"
 require_relative "brazilian_docs/cnpj"
+require_relative "brazilian_docs/pis"
+
 
 
 
