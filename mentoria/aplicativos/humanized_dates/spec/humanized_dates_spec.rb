@@ -6,6 +6,6 @@ RSpec.describe HumanizedDates do
   end
 
   it "does something useful" do
-    expect(true).to eq(true)
+    expect(false).to eq(true)
   end
 end
