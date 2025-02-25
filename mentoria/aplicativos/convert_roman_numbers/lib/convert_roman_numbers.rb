@@ -2,7 +2,7 @@
 
 require_relative "convert_roman_numbers/version"
 
-mmodule ConvertRomanNumbers
+module ConvertRomanNumbers
 class Error < StandardError; end
 
   class Converter
