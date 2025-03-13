@@ -1,19 +1,17 @@
 
 module UnitConverter
-    class distance_converter
-        def initialize(value, metros, kilometers)
+    class DistanceConverter
+        def initialize(value)
             @value = value
-            @metros = metros
-            @kilometers = kilometers
+        end
+        
+        def convert_meters_to_kilometers
+           @value / 1000.0           
+
         end
 
-        def converter_metro_kolometer
-            @kilometers = @value / 1000           
-
-        end
-
-        def converter_kilometer_metros
-            @metros = @value * 1000
+        def convert_kilometers_to_meters
+            @value * 1000
         end
     end
 end
